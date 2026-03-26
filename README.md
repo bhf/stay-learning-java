@@ -31,10 +31,10 @@ This document is designed to serve as a navigable index for humans, LLMs, and MC
   - [Repository Index](#repository-index)
     - [st-learning-java-streams](#st-learning-java-streams)
     - [st-learning-java-arenas](#st-learning-java-arenas)
-    - [st-learning-spi](#st-learning-spi)
-    - [st-learning-jpms `[private]`](#st-learning-jpms-private)
-    - [st-learning-mapstruct](#st-learning-mapstruct)
-    - [st-learning-base `[private]`](#st-learning-base-private)
+    - [st-learning-java-spi](#st-learning-java-spi)
+    - [st-learning-java-jpms `[private]`](#st-learning-java-jpms-private)
+    - [st-learning-java-mapstruct](#st-learning-java-mapstruct)
+    - [st-learning-java-base `[private]`](#st-learning-java-base-private)
   - [Quick Reference](#quick-reference)
   - [For LLMs and MCP Tools](#for-llms-and-mcp-tools)
     - [Machine-readable repo list](#machine-readable-repo-list)
@@ -44,9 +44,9 @@ This document is designed to serve as a navigable index for humans, LLMs, and MC
 ## How to Use This Index
 
 - Each entry below describes one repository, its purpose, and the key concepts it demonstrates.
-- All repositories follow the naming convention `st-learning-<topic>`
+- All repositories follow the naming convention `st-learning-java-<topic>`
 - Repositories marked `[private]` require access rights.
-- The base template repository is [`st-learning-base`](#st-learning-base) — use it to bootstrap new examples.
+- The base template repository is [`st-learning-java-base`](#st-learning-java-base) — use it to bootstrap new examples.
 
 ---
 
@@ -84,7 +84,7 @@ Demonstrates native memory allocation and management using Java's `java.lang.for
 
 ---
 
-### [st-learning-spi](https://github.com/bhf/st-learning-spi)
+### [st-learning-java-spi](https://github.com/bhf/st-learning-java-spi)
 
 **Topics:** `java` `spi` `service-provider-interface` `serviceloader` `design-patterns` `extensibility`
 
@@ -103,7 +103,7 @@ System.out.println(p.name() + " -> " + p.id());
 
 ---
 
-### [st-learning-jpms](https://github.com/bhf/st-learning-jpms) `[private]`
+### [st-learning-java-jpms](https://github.com/bhf/st-learning-java-jpms) `[private]`
 
 **Topics:** `java` `jpms` `jlink` `modules` `gradle` `docker` `java21`
 
@@ -120,7 +120,7 @@ A multi-module Gradle project demonstrating the Java Platform Module System (JPM
 
 ---
 
-### [st-learning-mapstruct](https://github.com/bhf/st-learning-mapstruct)
+### [st-learning-java-mapstruct](https://github.com/bhf/st-learning-java-mapstruct)
 
 **Topics:** `java` `mapstruct` `object-mapping` `dto` `records` `enums` `gradle-kotlin-dsl` `junit5`
 
@@ -139,7 +139,7 @@ Demonstrates common MapStruct mapping patterns and recipes with JUnit 5 tests.
 
 ---
 
-### [st-learning-base](https://github.com/bhf/st-learning-base) `[private]`
+### [st-learning-java-base](https://github.com/bhf/st-learning-java-base) `[private]`
 
 **Topics:** `java` `gradle` `template` `starter`
 
@@ -153,10 +153,10 @@ A minimal starter template used to bootstrap new `st-learning` example repositor
 |---|---|---|
 | [st-learning-java-streams](https://github.com/bhf/st-learning-java-streams) | Streams, Collectors, Functional | Public |
 | [st-learning-java-arenas](https://github.com/bhf/st-learning-java-arenas) | Foreign Memory, Arenas, JDK 24 | Public |
-| [st-learning-spi](https://github.com/bhf/st-learning-spi) | SPI, ServiceLoader, Extensibility | Public |
-| [st-learning-jpms](https://github.com/bhf/st-learning-jpms) | JPMS, JLink, Multi-module, Docker | Private |
-| [st-learning-mapstruct](https://github.com/bhf/st-learning-mapstruct) | MapStruct, DTO mapping, Records | Public |
-| [st-learning-base](https://github.com/bhf/st-learning-base) | Starter template | Private |
+| [st-learning-java-spi](https://github.com/bhf/st-learning-java-spi) | SPI, ServiceLoader, Extensibility | Public |
+| [st-learning-java-jpms](https://github.com/bhf/st-learning-java-jpms) | JPMS, JLink, Multi-module, Docker | Private |
+| [st-learning-java-mapstruct](https://github.com/bhf/st-learning-java-mapstruct) | MapStruct, DTO mapping, Records | Public |
+| [st-learning-java-base](https://github.com/bhf/st-learning-java-base) | Starter template | Private |
 
 ---
 
