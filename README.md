@@ -34,6 +34,7 @@ This document is designed to serve as a navigable index for humans, LLMs, and MC
     - [st-learning-java-spi](#st-learning-java-spi)
     - [st-learning-java-jpms `[private]`](#st-learning-java-jpms-private)
     - [st-learning-java-mapstruct](#st-learning-java-mapstruct)
+    - [st-learning-java-jackson](#st-learning-java-jackson)
     - [st-learning-java-base `[private]`](#st-learning-java-base-private)
   - [Quick Reference](#quick-reference)
   - [For LLMs and MCP Tools](#for-llms-and-mcp-tools)
@@ -139,6 +140,21 @@ Demonstrates common MapStruct mapping patterns and recipes with JUnit 5 tests.
 
 ---
 
+### [st-learning-java-jackson](https://github.com/bhf/st-learning-java-jackson)
+
+**Topics:** `java` `jackson` `json` `serialization` `deserialization` `streaming` `polymorphic`
+
+Small learning examples for Jackson mapping, including basic POJO mapping, nested objects, Java Time mapping, streaming capabilities (NDJSON), and polymorphic mapping.
+
+**Key classes / examples:**
+
+- `Person`, `PersonSample` - Basic POJO serialization/deserialization
+- `Order`, `Item`, `OrderSample` - Nested objects and Java Time mapping
+- `StreamingSample` - Writing and reading newline-delimited JSON (NDJSON) using Jackson's streaming APIs
+- `PolymorphicSample` - Polymorphic mapping using `@JsonTypeInfo` and `@JsonSubTypes` with `Animal` (`Dog`, `Cat`)
+
+---
+
 ### [st-learning-java-base](https://github.com/bhf/st-learning-java-base) `[private]`
 
 **Topics:** `java` `gradle` `template` `starter`
@@ -156,6 +172,7 @@ A minimal starter template used to bootstrap new `st-learning` example repositor
 | [st-learning-java-spi](https://github.com/bhf/st-learning-java-spi) | SPI, ServiceLoader, Extensibility | Public |
 | [st-learning-java-jpms](https://github.com/bhf/st-learning-java-jpms) | JPMS, JLink, Multi-module, Docker | Private |
 | [st-learning-java-mapstruct](https://github.com/bhf/st-learning-java-mapstruct) | MapStruct, DTO mapping, Records | Public |
+| [st-learning-java-jackson](https://github.com/bhf/st-learning-java-jackson) | Jackson, JSON, Serialization | Public |
 | [st-learning-java-base](https://github.com/bhf/st-learning-java-base) | Starter template | Private |
 
 ---

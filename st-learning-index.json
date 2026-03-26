@@ -30,6 +30,12 @@
     "private": false
   },
   {
+    "name": "st-learning-java-jackson",
+    "url": "https://github.com/bhf/st-learning-java-jackson",
+    "topics": ["java", "jackson", "json", "serialization", "deserialization"],
+    "private": false
+  },
+  {
     "name": "st-learning-java-base",
     "url": "https://github.com/bhf/st-learning-java-base",
     "topics": ["java", "gradle", "template"],
